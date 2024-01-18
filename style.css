@@ -1,0 +1,28 @@
+body {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: rgb(196, 199, 251);
+    
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+.gif {
+ width: 30%;
+ height: auto;
+ max-height: 300px;
+ margin: 10px auto;
+ overflow: hidden;
+ margin-top: 15px;
+  
+}
+.ratsel {
+width: 33%;
+height: auto;
+max-height: 300px;
+margin: 10px auto;
+}
