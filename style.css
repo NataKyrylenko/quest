@@ -37,10 +37,12 @@ img {
     font-size: 30px;
 }
 
-input , button{
+input {
     padding: 10px;
+    background-color: white;
 } 
 button{
+    padding: 10px;
     background-color: chartreuse;
 }
 #congratulation {
