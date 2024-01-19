@@ -1,28 +1,23 @@
 body {
-    width: 1000px;
-    height: 1000px;
-    margin: 0 auto;
+    
     background-color: rgb(196, 199, 251);
     
 }
 .container {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
    
 }
-.gif {
- width: 30%;
- height: auto;
- max-height: 300px;
- margin: 10px auto;
- overflow: hidden;
- margin-top: 15px;
-  
+.image{
+    flex: 0 0 50%;
+    margin: 10px;
 }
-.ratsel {
-width: 33%;
-height: auto;
-max-height: 300px;
-margin: 10px auto;
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
