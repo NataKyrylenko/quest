@@ -9,7 +9,7 @@ function search(){
         document.getElementById("container").style.display = "none";
         document.getElementById("congratulation").style.display = "block";
     } else{
-        document.body.style.backgroundImage = "url('images/no.gif')";
+        document.body.style.backgroundImage = "url('images/giphy-bkg.gif')";
         
     }
 }
