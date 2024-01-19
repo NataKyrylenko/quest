@@ -1,18 +1,26 @@
 body {
+    width: 100%;
+    background-image: url("images/giphy-bkg.gif");
     
-    background-color: rgb(196, 199, 251);
+    background-size: auto;
+    background-position: center; 
+   
     
 }
 .container {
+   
     display: flex;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    
    
 }
 .image{
+     background-color: bisque;
     flex: 0 0 50%;
     margin: 10px;
 }
@@ -20,4 +28,29 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+.title , .input{
+    color: white;
+    padding: 30px;
+    border: 1px solid rgb(8, 8, 8);
+    background-color: black;
+    font-size: 30px;
+}
+
+input , button{
+    padding: 10px;
+} 
+button{
+    background-color: chartreuse;
+}
+#congratulation {
+    margin: 20px auto;
+    background-color: white;
+    font-size: 30px;
+    color: brown;
+    padding: 20px;
+    border: 3px solid red;
+    display: none;
+    
+    
 }

@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="container">
+    <section id="container" class="container">
         <div class="image" >
             <img src="images/giphy.gif"/> 
         </div>
 
-        <h2>Розгадай ребус </h2>
+        <h1 class="title">Розгадайте ребуси </h1>
 
         <div class="image">
             <img src="images/rebus.png" alt="#">
@@ -22,6 +22,20 @@
             <img src="images/schule.png" alt="#">
         </div>
 
+        <div class="input">
+            <label for="searchInput">Проверить слово </label>
+            <input type="text" id="searchInput" placeholder="Введи слово">
+            <button onclick="search()">Проверить</button>
+        </div>
+
+        
+   
     </section>
+    <div id="congratulation">
+            <p>Правильно! </p>
+            <p>Идите в школу, там следующая подсказка</p>
+        </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
