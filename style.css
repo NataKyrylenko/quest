@@ -46,7 +46,8 @@ button{
     background-color: chartreuse;
 }
 #congratulation {
-    width: 50%;
+    width: 70%;
+    text-align: center;
     margin: 20px auto;
     background-color: white;
     font-size: 20px;
